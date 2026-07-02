@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://mediconnect-86xp.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
